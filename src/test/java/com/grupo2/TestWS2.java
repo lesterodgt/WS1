@@ -5,6 +5,7 @@
  */
 package com.grupo2;
 
+import com.grupo2.ws2.WS2;
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.fail;
 
@@ -18,6 +19,13 @@ public class TestWS2 {
 
     public void testCaseOne(){
         assertEquals(3, 3);
+        // TODO review the generated test code and remove the default call to fail.
+        //fail("The test case is a prototype.");
+    }
+    
+    public void testCaseTwo(){
+        WS2 servicio = new WS2();
+        assertEquals( servicio.hello("1"), "1!");
         // TODO review the generated test code and remove the default call to fail.
         //fail("The test case is a prototype.");
     }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.grupo2.TestWS2" time="0.005" errors="0" skipped="0">
+<testsuite tests="2" failures="0" name="com.grupo2.TestWS2" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/lesterod/Escritorio/repositorio/WS2"/>
+    <property name="user.dir" value="/home/lesterod/Escritorio/repositorio/WS1"/>
     <property name="java.runtime.version" value="1.8.0_151-b12"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
@@ -61,4 +61,5 @@
     <property name="sun.cpu.isalist" value=""/>
   </properties>
   <testcase classname="com.grupo2.TestWS2" name="com.grupo2.TestWS2.testCaseOne" time="0.002"/>
+  <testcase classname="com.grupo2.TestWS2" name="com.grupo2.TestWS2.testCaseTwo" time="0"/>
 </testsuite>
